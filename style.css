@@ -1,0 +1,44 @@
+:root{
+    --first-color: #0c2e8a;
+    --second-color: #50d8af;
+    
+}
+.main-color{
+    color: var(--first-color);
+}
+.second-clr{
+    color: var(--second-color);
+}
+.banner-image-1{
+    background-image: url("./image/carousel/1.jpg");
+    height: 100vh;
+}
+.banner-image-2{
+    background-image: url("./image/carousel/2.jpg");
+    height: 100vh;
+}
+.banner-image-3{
+    background-image: url("./image/carousel/3.jpg");
+    height: 100vh;
+}
+.btn-primary{
+    background-color: var(--first-color);
+}
+.btn-secondary{
+    background-color: var(--second-color);
+}
+.client-image{
+    width: 165px;
+}
+.action-bg{
+    background-color: var(--first-color);
+}
+.butn{
+    background-color: var(--first-color);
+    color: white;
+    outline: white;
+}
+.butn:hover{
+    background-color: rgb(175, 191, 191);
+    color:#0c2e8a
+}
